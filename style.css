@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi|Muli|Righteous');
+/* 
+font-family: 'Righteous', cursive;
+font-family: 'Baloo Thambi', cursive;
+font-family: 'Muli', sans-serif;
+*/
+::selection {
+  background-color: transparent;
+  
+}
+body{
+	color:#303030;
+	text-align:center;
+	font-family: 'Righteous', cursive;
+}
+canvas {
+  display: block;
+}
+
+.block-audio {
+  display: none;
+}
+
+.greetings {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+}
+.greetings p span {
+    display: block;
+    font-family: 'Baloo Thambi', cursive;
+	    letter-spacing: initial;
+}
+.greetings p {
+    font-size: 90px;
+    line-height: 1.5;
+    letter-spacing: 4.5px;
+    margin-bottom:0px;
+}
+.greetings p span i {
+    font-style: normal;
+    color: #3A33A0;
+}
+p.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+}
+p.fixed span {
+    position: absolute;
+    right: 5%;
+    font-size: 12px;
+    color: #FFEB3B;
+}
+.mobi{
+  font-size:12px;
+  position:fixed;
+  top:0;
+  color:#444;
+  width:100%;
+  display:none;
+}
+.tag{
+  font-family: 'Muli', sans-serif;
+  display:block;
+  margin-bottom:10px;
+  font-style:normal;
+  text-transform: uppercase;
+}
+.knack{
+  width:100px;
+  border-radius:10px;
+  border:2px solid #444;
+}
+@media only screen and (max-width:768px) {
+	.greetings p {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+  .mobi{
+    display:block;
+  }
+}
